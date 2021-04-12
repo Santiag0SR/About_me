@@ -6,4 +6,18 @@
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 50px black;
+    animation-name: scale;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
 }

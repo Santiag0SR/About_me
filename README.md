@@ -1,6 +1,6 @@
 # ABOUT_ME
 
-"Additional_project_1" Is an additional project for the Advance HTML and CSS block of the course with Practicum by Yandex (https://practicum.yandex.com/) to be a Web Developer.
+"About_me" Is an additional project for the Advance HTML and CSS block of the course with Practicum by Yandex (https://practicum.yandex.com/) to be a Web Developer.
 
 ## Description
 
