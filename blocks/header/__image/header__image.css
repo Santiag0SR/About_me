@@ -1,10 +1,10 @@
 .header__image {
-    margin: 100px auto auto auto;
-    margin-top: 100px;
+    margin: auto auto 0 auto;
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 100px;
+    border: white solid 5px;
     box-shadow: 0 0 50px black;
     animation-name: scale;
     animation-duration: 5s;

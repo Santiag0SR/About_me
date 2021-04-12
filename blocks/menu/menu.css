@@ -1,3 +1,4 @@
 .menu {
     display: table;
+    overflow: hidden;
 }

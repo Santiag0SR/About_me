@@ -1,11 +1,11 @@
 .quote__image {
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
     background-image: url(../../../images/quote-icon.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    top: -170px;
+    top: -200px;
     left: -130px;
     opacity: 0.5;
 }
