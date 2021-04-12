@@ -1,0 +1,6 @@
+.learning__list {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    display: table;
+}

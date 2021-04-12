@@ -1,0 +1,6 @@
+.myself__side-text {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50px;
+    right: -190px;
+}

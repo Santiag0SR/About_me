@@ -1,0 +1,6 @@
+.myself__img {
+    flex: 50%;
+    object-fit: cover;
+    width: 458px;
+    height: 400px;
+}

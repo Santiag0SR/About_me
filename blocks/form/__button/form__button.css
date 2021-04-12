@@ -1,0 +1,24 @@
+.form__button {
+    width: 400px;
+    height: 50px;
+    border: 0;
+    margin: 0;
+    padding: 7px auto;
+    cursor: pointer;
+    color: white;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    background-color: black;
+    transition-property: background-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.form__button:hover {
+    background-color: white;
+    color: black;
+}

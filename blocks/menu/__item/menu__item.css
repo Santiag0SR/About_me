@@ -1,0 +1,15 @@
+.menu__item {
+    margin-right: 30px;
+    font-weight: 300;
+    opacity: 0.5;
+    color: white;
+    transition: opacity 0.5s linear;
+}
+
+.menu__item:last-of-type {
+    margin-right: 0;
+}
+
+.menu__item:hover {
+    opacity: 1;
+}

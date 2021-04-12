@@ -1,0 +1,7 @@
+.form__item_el_email {
+    color: white;
+}
+
+.form__item_el_email::placeholder {
+    color: white;
+}

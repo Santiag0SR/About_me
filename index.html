@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./vendor/normalize.css" rel="stylesheet">
+    <link href="./pages/index.css" rel="stylesheet">
+    <link href="./fonts/fonts.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="page">
+        <header class="header" id="header">
+            <nav class="menu header__menu">
+                <menu class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#header">Who I am</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#myself"> What I say</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#learning">What I'm learning</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#contact">Talk to me</a></li>
+                </menu>
+            </nav>
+            <img class="header__image" src="images/Myself_image.jpeg" alt="Myself_image">
+            <h1 class="header__title"> Santiago Sánchez Romero</h1>
+        </header>
+        <main class="content">
+            <section class="quote" id="quote">
+                <div class="quote__image"></div>
+                <blockquote class="quote__text">If you want to take the island,<br> burn the boats</blockquote>
+                <p class="quote__author">Anthony Robins</p>
+            </section>
+            <section class="myself" id="myself">
+                <p class="side-text side-text_position_right">Who I Am</p>
+                <img class="myself__img" src="images/Asesoramiento.png" alt="myself-image-working">
+                <div class="myself__container">
+                    <p class="myself__subtitle">My name is Julian Hernandez, I am currently a student at Practicum by Yandex, learning to become a web developer.</p>
+                    <p class="myself__text">In 2-3 more paragraphs, answer the following questions about yourself. 1.What do you do for work now? 2.What interested you about web development? 3.What are your goals with this course? Feel free to also speak about what you’ve learned
+                        from your previous employment experience regardless of how small or unimportant you may think that experience is, and talk about how it will help you grow as a developer. This block can grow to be as big as needed,</p>
+                    <p class="myself__text">n 2-3 more paragraphs, answer the following questions about yourself. What do you do for work now? What interested you about web development? What are your goals with this course? Feel free to also speak about what you’ve learned from
+                        your previous employment experience regardless of how small or unimportant you may think that experience is, and talk about how it will help you grow as a developer. This block can grow to be as big as needed,</p>
+                </div>
+            </section>
+            <section class="learning" id="learning">
+                <p class="side-text side-text_position_left">What I'am Learning</p>
+                <ul class="learning__list">
+                    <li class="learning__item learning__item_status_studied">Basics of HTML</li>
+                    <li class="learning__item learning__item_status_studied"> Advanced HTML & CSS</li>
+                    <li class="learning__item">Adaptive Web Design and Working with Layouts</li>
+                    <li class="learning__item">Basic Javascript and Working with the Browser</li>
+                    <li class="learning__item">Applied Javascript</li>
+                    <li class="learning__item">Creating an Interface with React</li>
+                    <li class="learning__item">Back-End Basics for Web Developers</li>
+                    <li class="learning__item">Final Project</li>
+                </ul>
+            </section>
+            <section class="contact" id="contact">
+                <p class="side-text side-text_position_right">Talk to me</p>
+                <form class="form">
+                    <fieldset class="form__input-container">
+                        <label for="name" class="form__label"></label>
+                        <input type="text" id="name" placeholder="name" class="form__item" required>
+                        <label for="email" class="form__label"></label>
+                        <input type="email" id="email" placeholder="santisr@santisr.com" class="form__item form__item_el_email" required>
+                        <label for="message" class="form__label"></label>
+                        <textarea id="message" placeholder="message" class="form__item form__item_el_message" required></textarea>
+                    </fieldset>
+                    <fieldset class="form__handlers">
+                        <input type="submit" value="send" class="form__button">
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <nav class="menu footer__menu">
+                <menu class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#header">Who I am</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#myself"> What I say</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#learning">What I'm learning</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#contact">Talk to me</a></li>
+                </menu>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
